@@ -31,7 +31,7 @@ export default function Listing(props) {  // КОМПОНЕНТ ОТРТСОВК
     let level = '';
     if ((quantity >= 0) && (quantity <= 10)) level = ' level-low';
     if ((quantity > 10) && (quantity <= 20)) level = ' level-medium';
-    if (quantity > 20) level = 'level-high';
+    if (quantity > 20) level = ' level-high';
 
     const fullLevel = 'item-quantity' + level; 
 
